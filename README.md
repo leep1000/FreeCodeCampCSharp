@@ -1,2 +1,2 @@
 # FreeCodeCampCSharp
-Free code camp c# certification
+FreeCodeCamp C# certification
