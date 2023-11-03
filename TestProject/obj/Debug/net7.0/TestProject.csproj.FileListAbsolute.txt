@@ -12,3 +12,17 @@ C:\Users\user\Documents\Lee\Projects\CsharpProjects\TestProject\obj\Debug\net7.0
 C:\Users\user\Documents\Lee\Projects\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.pdb
 C:\Users\user\Documents\Lee\Projects\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.genruntimeconfig.cache
 C:\Users\user\Documents\Lee\Projects\CsharpProjects\TestProject\obj\Debug\net7.0\ref\TestProject.dll
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\TestProject.AssemblyInfoInputs.cache
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\TestProject.AssemblyInfo.cs
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\TestProject.dll
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\refint\TestProject.dll
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\TestProject.pdb
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\bin\Debug\net7.0\TestProject.exe
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\bin\Debug\net7.0\TestProject.deps.json
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\bin\Debug\net7.0\TestProject.runtimeconfig.json
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\bin\Debug\net7.0\TestProject.dll
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\bin\Debug\net7.0\TestProject.pdb
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\TestProject.genruntimeconfig.cache
+C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\ref\TestProject.dll
