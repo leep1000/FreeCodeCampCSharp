@@ -117,4 +117,29 @@ fraudulentOrderIDs[0] = "F000";
 Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 
 Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
+
+int[] inventory = { 200, 450, 700, 175, 250 };
+
+int sum = 0;
+int bin = 0;
+
+foreach (int items in inventory)
+{
+    sum += items;
+    bin++;
+    Console.WriteLine($"Bin {bin} = {items} items (running total: {sum})");
+}
+
+Console.WriteLine($"We have {sum} items in inventory.");
+
+string[] orderIDs = {"B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
+string[] OrderIDsWithB = {};
+
+foreach (string ID in orderIDs)
+{
+    if(ID.StartsWith("B"))
+    {
+        Console.WriteLine(ID);
+    }
+}
 */
