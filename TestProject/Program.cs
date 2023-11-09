@@ -203,8 +203,6 @@ if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
     }
 }
 
-*/
-
 // The high-level purpose of this code is to reverse a string and count the number of times a particular character appears.
 // Then prints the results
 
@@ -227,3 +225,5 @@ string newMessage = new String(reverseMessage);
 
 Console.WriteLine(newMessage);
 Console.WriteLine($"'o' appears {count} times.");
+*/
+
