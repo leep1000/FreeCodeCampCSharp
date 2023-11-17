@@ -498,8 +498,6 @@ for (int i = 1; i <= 100; i++)
     }
 }
 
-*/
-
 Random random = new Random();
 int current = random.Next(1, 11);
 
@@ -521,3 +519,38 @@ do
 //     current = random.Next(1, 11);
 // }
 // Console.WriteLine($"Last number: {current}");
+
+*/
+
+Random dice = new Random();
+
+int heroHP = 10;
+int enemyHP = 10;
+
+bool isHeroTurn = true;
+
+while (heroHP > 0 && enemyHP > 0)
+{
+    int attack = dice.Next(1, 7);
+
+    if (isHeroTurn)
+    {
+        enemyHP -= attack;
+        Console.WriteLine($"Enemy was damaged and lost {attack} health and now has {enemyHP} health.");
+        // isHeroTurn = false;
+    }
+    else
+    {
+        heroHP -= attack;
+        Console.WriteLine($"Hero was damaged and lost {attack} health and now has {heroHP} health.");
+        // isHeroTurn = true;
+    }
+
+    // Console.WriteLine($"{(isHeroTurn ? "Enemy" : "Hero")} was damaged and lost {attack} health and now has {(isHeroTurn ? enemyHP : heroHP)}.");
+    isHeroTurn = !isHeroTurn;
+}
+
+string winner = heroHP > 0 ? "Hero" : "Enemy";
+Console.WriteLine($"{winner} wins!");
+
+
