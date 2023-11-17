@@ -520,8 +520,6 @@ do
 // }
 // Console.WriteLine($"Last number: {current}");
 
-*/
-
 Random dice = new Random();
 
 int heroHP = 10;
@@ -552,5 +550,7 @@ while (heroHP > 0 && enemyHP > 0)
 
 string winner = heroHP > 0 ? "Hero" : "Enemy";
 Console.WriteLine($"{winner} wins!");
+
+*/
 
 
