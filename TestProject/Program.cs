@@ -551,6 +551,97 @@ while (heroHP > 0 && enemyHP > 0)
 string winner = heroHP > 0 ? "Hero" : "Enemy";
 Console.WriteLine($"{winner} wins!");
 
+// Code Project 1
+string? readResult;
+bool validNumber = false;
+int numericValue = 0;
+
+Console.WriteLine("Enter a number between 5 and 10");
+
+do
+{
+    readResult = Console.ReadLine();
+    validNumber = int.TryParse(readResult, out numericValue);
+
+    if (validNumber == false)
+    {
+        Console.WriteLine("That's not a number. Please enter a number between 5 and 10.");
+    }
+    else if (numericValue < 5 || numericValue > 10)
+    {
+        Console.WriteLine("Your number is not between 5 and 10. Please enter a number between 5 and 10");
+        validNumber = false;
+    }
+
+} while (validNumber == false);
+
+Console.WriteLine($"Well done! Your number ({numericValue}) has been accepted.");
+
+// Code Project 2
+
+string[] roles = new string[] { "administrator", "manager", "user" };
+bool isValidUser = false;
+string userRole = "";
+string? readResult;
+string userInput = "";
+
+Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
+
+while (!isValidUser)
+{
+    readResult = Console.ReadLine();
+    userInput = readResult;
+
+    if (readResult != null)
+    {
+        userRole = readResult.Trim();
+    }
+
+    foreach (string role in roles)
+    {
+        if (role == userRole.ToLower())
+        {
+            userRole = role;
+            isValidUser = true;
+            break;
+        }
+    }
+
+    if (isValidUser == false)
+    {
+        Console.WriteLine($"The role name that you entered, \"{readResult}\" is not valid. Enter your role name (Administrator, Manager, or User)");
+    }
+}
+
+Console.WriteLine($"Your input value ({userInput}) has been accepted.");
+
 */
 
+// Code Project 3
 
+string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+int periodLocation = -1;
+string sentence = "";
+
+for (int i = 0; i < myStrings.Length; i++)
+{
+    string myString = myStrings[i];
+    periodLocation = myString.IndexOf(".");
+
+    while (periodLocation != -1)
+    {
+        sentence = myString.Remove(periodLocation).TrimStart();
+        myString = myString.Substring(periodLocation + 1);
+
+        Console.WriteLine(sentence);
+        periodLocation = myString.IndexOf(".");
+    }
+
+    if (periodLocation == -1)
+    {
+        Console.WriteLine(myString.TrimStart());
+    }
+
+    // sentence = myString.Trim();
+    // Console.WriteLine(sentence);
+}
