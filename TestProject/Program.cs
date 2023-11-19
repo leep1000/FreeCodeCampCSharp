@@ -615,33 +615,28 @@ while (!isValidUser)
 
 Console.WriteLine($"Your input value ({userInput}) has been accepted.");
 
-*/
-
 // Code Project 3
 
 string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
-int periodLocation = -1;
-string sentence = "";
 
 for (int i = 0; i < myStrings.Length; i++)
 {
+
     string myString = myStrings[i];
-    periodLocation = myString.IndexOf(".");
+    int periodLocation = myString.IndexOf(".");
 
     while (periodLocation != -1)
     {
-        sentence = myString.Remove(periodLocation).TrimStart();
-        myString = myString.Substring(periodLocation + 1);
 
+        string sentence = myString.Remove(periodLocation);
         Console.WriteLine(sentence);
+        myString = myString.Substring(periodLocation + 1).TrimStart();
+
         periodLocation = myString.IndexOf(".");
+
     }
 
-    if (periodLocation == -1)
-    {
-        Console.WriteLine(myString.TrimStart());
-    }
-
-    // sentence = myString.Trim();
-    // Console.WriteLine(sentence);
+    Console.WriteLine(myString);
 }
+
+*/
