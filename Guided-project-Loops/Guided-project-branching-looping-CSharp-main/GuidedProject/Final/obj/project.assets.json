@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\palmerl\\OneDrive - FUJITSU\\Documents\\Projects\\C#\\FreeCodeCamp\\FreeCodeCampCSharp\\TestProject\\TestProject.csproj",
-      "projectName": "TestProject",
-      "projectPath": "C:\\Users\\palmerl\\OneDrive - FUJITSU\\Documents\\Projects\\C#\\FreeCodeCamp\\FreeCodeCampCSharp\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\palmerl\\OneDrive - FUJITSU\\Documents\\Projects\\C#\\FreeCodeCamp\\FreeCodeCampCSharp\\Guided-project-Loops\\Guided-project-branching-looping-CSharp-main\\GuidedProject\\Final\\Final.csproj",
+      "projectName": "Final",
+      "projectPath": "C:\\Users\\palmerl\\OneDrive - FUJITSU\\Documents\\Projects\\C#\\FreeCodeCamp\\FreeCodeCampCSharp\\Guided-project-Loops\\Guided-project-branching-looping-CSharp-main\\GuidedProject\\Final\\Final.csproj",
       "packagesPath": "C:\\Users\\palmerl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\palmerl\\OneDrive - FUJITSU\\Documents\\Projects\\C#\\FreeCodeCamp\\FreeCodeCampCSharp\\TestProject\\obj\\",
+      "outputPath": "C:\\Users\\palmerl\\OneDrive - FUJITSU\\Documents\\Projects\\C#\\FreeCodeCamp\\FreeCodeCampCSharp\\Guided-project-Loops\\Guided-project-branching-looping-CSharp-main\\GuidedProject\\Final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
