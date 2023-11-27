@@ -184,6 +184,55 @@ do
                             }
                         }
                     } while (validEntry == false);
+                    // get pet physical description, including physical appearance/condition - animalPhysicalDescription can be blank.
+                    do
+                    {
+                        Console.WriteLine("Enter a physical description of the pet (size, color, gender, weight, housebroken)");
+                        readResult = Console.ReadLine();
+                        if (readResult != null)
+                        {
+                            animalPhysicalDescription = readResult.ToLower();
+                            if (animalPhysicalDescription == "")
+                            {
+                                animalPhysicalDescription = "tbd";
+                            }
+                        }
+                    } while (animalPhysicalDescription == "");
+                    // get pet personality - animalPersonalityDescription can be blank.
+                    do
+                    {
+                        Console.WriteLine("Enter a description for the personality of the pet (likes or dislikes, tricks, energy level)");
+                        readResult = Console.ReadLine();
+                        if (readResult != null)
+                        {
+                            animalPersonalityDescription = readResult.ToLower();
+                            if (animalPersonalityDescription == "")
+                            {
+                                animalPersonalityDescription = "tbd";
+                            }
+                        }
+                    } while (animalPersonalityDescription == "");
+                    // get pet nickname - can be blank
+                    do
+                    {
+                        Console.WriteLine("Enter the pet's nickname");
+                        readResult = Console.ReadLine();
+                        if (readResult != null)
+                        {
+                            animalNickname = readResult.ToLower();
+                            if (animalNickname == "")
+                            {
+                                animalNickname = "tbd";
+                            }
+                        }
+                    } while (animalNickname == "");
+                    // store pet information in the ourAnimals array (zero based)
+                    ourAnimals[petCount, 0] = "ID #: " + animalID;
+                    ourAnimals[petCount, 1] = "Species: " + animalSpecies;
+                    ourAnimals[petCount, 2] = "Age: " + animalAge;
+                    ourAnimals[petCount, 3] = "Nickname: " + animalPhysicalDescription;
+                    ourAnimals[petCount, 4] = "Physical description: " + animalPersonalityDescription;
+                    ourAnimals[petCount, 5] = "Personality: " + animalNickname;
                     // another pet?
                     Console.WriteLine("Do you want to add another pet? (y/n)");
                     do
