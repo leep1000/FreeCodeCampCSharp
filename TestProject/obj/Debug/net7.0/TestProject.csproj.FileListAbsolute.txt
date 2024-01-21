@@ -26,3 +26,4 @@ C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeC
 C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\bin\Debug\net7.0\TestProject.pdb
 C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\TestProject.genruntimeconfig.cache
 C:\Users\palmerl\OneDrive - FUJITSU\Documents\Projects\C#\FreeCodeCamp\FreeCodeCampCSharp\TestProject\obj\Debug\net7.0\ref\TestProject.dll
+C:\Users\user\Documents\Lee\Projects\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.sourcelink.json
